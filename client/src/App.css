@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f6ff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 10px;
+  max-width: 700px;
+  margin: 50px auto;
+}
+
+.btn {
+  border: none;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  background-color: #ffa700;
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.addContainer {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addContainer form {
+  width: 550px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.addContainer form h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.addContainer form .inputContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  position: relative;
+}
+
+.addContainer form .inputContainer .icon {
+  position: absolute;
+  left: 10px;
+  font-size: 15px;
+  color: #000;
+}
+
+.addContainer form .inputContainer input, 
+.addContainer form select {
+  font-size: 18px;
+  padding: 10px 10px 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.nameContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nameContainer .inputContainer {
+  width: 48%;
+}
+
+.genderContainer, 
+.termsContainer, 
+.newsletterContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.genderContainer input, 
+.termsContainer input, 
+.newsletterContainer input {
+  width: auto;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.inputContainer .form-control{
+  cursor: pointer;
+}
+
+.genderContainer label, 
+.termsContainer label, 
+.newsletterContainer label {
+  margin-right: 20px;
+}
+
+.addContainer form .btn {
+  background-color: #ffa700;
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
